@@ -1,8 +1,7 @@
 #include "main.h"
 	/**
 	 * main - Entry point
-	 *
-	 * Description: Prints "_putchar".
+	 * Description: The main is meant to print "_putcher".
 	 * @void: The void parameter
 	 * Return: 0
 	 */
