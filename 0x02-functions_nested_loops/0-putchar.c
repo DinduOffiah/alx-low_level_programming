@@ -1,10 +1,13 @@
 #include "main.h"
 	/**
-	 * main - Entry point
-	 * Description: The main is meant to print "_putcher".
-	 * @void: The void parameter
-	 * Return: 0
-	 */
+ * main - Entry point
+ * 
+ * Description: 'the program's description'
+ * @parameter: describe the parameter
+ * 
+ * Return: Always 0 (Success)
+ */
+
 
 	int main(void)
 	{
