@@ -3,6 +3,7 @@
 	 * main - Entry point
 	 *
 	 * Description: Prints "_putchar".
+	 * @void: The void parameter
 	 * Return: 0
 	 */
 
