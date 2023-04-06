@@ -6,7 +6,6 @@
  * @size: size
  * Return: result
  */
-
 void print_diagsums(int *a, int size)
 {
 	int sum1, sum2, y;
