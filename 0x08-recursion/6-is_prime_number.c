@@ -17,8 +17,10 @@ int is_prime_number(int n)
 
 /**
  * real_prime - calculates if a number is normally a prime.
+ * @n: value for assessment.
+ * @i: iterator
+ * Return: 1 if n is a prime number, else return 0.
  */
-	
 int real_prime(int n, int i)
 {
 	if (i == 1)
