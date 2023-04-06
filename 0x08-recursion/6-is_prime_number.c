@@ -16,7 +16,7 @@ int is_prime_number(int n)
 	return (real_prime(n, n - 1));
 }
 
-int actual_prime(int n, int i)
+int real_prime(int n, int i)
 {
 	if (i == 1)
 		return (1);
