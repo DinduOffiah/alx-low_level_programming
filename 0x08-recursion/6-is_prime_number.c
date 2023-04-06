@@ -3,7 +3,6 @@
  * is_prime_number - returns 1 if the input integer is a prime number, otherwise return 0.
  * @n: value for assessment.
  * @i: iterator
- * real_prime - calculates if a number is normally a prime.
  * Return: 1 if n is a prime number, else return 0.
  */
 
@@ -16,6 +15,10 @@ int is_prime_number(int n)
 	return (real_prime(n, n - 1));
 }
 
+/**
+ * real_prime - calculates if a number is normally a prime.
+ */
+	
 int real_prime(int n, int i)
 {
 	if (i == 1)
