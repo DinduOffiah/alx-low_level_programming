@@ -21,20 +21,20 @@ char *str_concat(char *s1, char *s2)
       s2 = "";
     }
 
-	f, s = 0;
+	f = s = 0;
 	while (s1[f] != '\0')
-		i++;
+		f++;
 	while (s2[s] != '\0')
-		ci++;
+		s++;
 	concat = malloc(sizeof(char) * (f + s + 1));
 
 	if (concat == NULL)
 		return (NULL);
-	f, s = 0;
+	f = s = 0;
 	while (s1[f] != '\0')
 	{
 		concat[f] = s1[f];
-		i++;
+		f++;
 	}
 
 	while (s2[s] != '\0')
