@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * array_iterator - executes a funct given as a p'meter on each elem of an array.
+ * array_iterator - executes a funct given as a p'meter on each elem of array.
  * @array: array
  * @size: how many elem to print
  * @action: pointer to print in regular or hex
