@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main - entry point.
  * @argc: the number of command line arguments.
