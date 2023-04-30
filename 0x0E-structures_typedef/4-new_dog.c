@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * _strlen - returns the length of a string.
+ * _strlen - return the length of a string.
  * @s: string.
  * Return: the length of the string.
  */
